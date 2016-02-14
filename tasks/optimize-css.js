@@ -1,5 +1,5 @@
 var gulp      = require('gulp');
-var minifycss = require('gulp-minify-css');
+var minifycss = require('gulp-cssnano');
 var size      = require('gulp-size');
 var config    = require('../config').optimize.css;
 
