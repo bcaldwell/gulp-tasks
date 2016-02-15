@@ -1,7 +1,7 @@
 var gulp    = require('gulp');
 var htmlmin = require('gulp-htmlmin');
 var size     = require('gulp-size');
-var config  = require('../../config').optimize.html;
+var config  = require('../config').optimize.html;
 
 /**
  * Minimize HTML
